@@ -4804,33 +4804,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-use-query@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-use-query@workspace:."
-  dependencies:
-    "@testing-library/jest-dom": ^5.16.5
-    "@testing-library/react": ^13.4.0
-    "@testing-library/user-event": ^14.4.3
-    "@types/jest": ^29.2.4
-    "@types/react": ^18.0.26
-    "@typescript-eslint/eslint-plugin": ^5.47.0
-    "@typescript-eslint/parser": ^5.47.0
-    eslint: ^8.30.0
-    eslint-plugin-react: ^7.31.11
-    eslint-plugin-react-hooks: ^4.6.0
-    jest: ^29.3.1
-    jest-canvas-mock: ^2.4.0
-    jest-environment-jsdom: ^29.3.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    ts-jest: ^29.0.3
-    tslib: ^2.4.1
-    typescript: ^4.9.4
-  peerDependencies:
-    react: ">=16.8.0"
-  languageName: unknown
-  linkType: soft
-
 "react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -5614,6 +5587,33 @@ __metadata:
   checksum: fbdba6b1d83336aca2216bbdc38ba658d9cfb8fc7f665eb8b17852de638ff7d1a162c198a8e4ed66001ddbf6c9888d41e4798912c62b4fd777a31657989f7bdf
   languageName: node
   linkType: hard
+
+"use-query-react@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "use-query-react@workspace:."
+  dependencies:
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^13.4.0
+    "@testing-library/user-event": ^14.4.3
+    "@types/jest": ^29.2.4
+    "@types/react": ^18.0.26
+    "@typescript-eslint/eslint-plugin": ^5.47.0
+    "@typescript-eslint/parser": ^5.47.0
+    eslint: ^8.30.0
+    eslint-plugin-react: ^7.31.11
+    eslint-plugin-react-hooks: ^4.6.0
+    jest: ^29.3.1
+    jest-canvas-mock: ^2.4.0
+    jest-environment-jsdom: ^29.3.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    ts-jest: ^29.0.3
+    tslib: ^2.4.1
+    typescript: ^4.9.4
+  peerDependencies:
+    react: ">=16.8.0"
+  languageName: unknown
+  linkType: soft
 
 "util-deprecate@npm:^1.0.1":
   version: 1.0.2

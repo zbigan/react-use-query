@@ -1,5 +1,5 @@
 {
-  "name": "react-use-query",
+  "name": "use-query-react",
   "version": "0.0.1",
   "description": "react hook for working with async data",
   "main": "./dist/cjs/index.js",
