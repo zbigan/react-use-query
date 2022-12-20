@@ -1,4 +1,4 @@
-import { useAction } from "./useAction";
+import { useAction } from "../src/useAction";
 import { renderHook, waitFor, act } from "@testing-library/react";
 
 describe("testing 'useAction' hook", () => {

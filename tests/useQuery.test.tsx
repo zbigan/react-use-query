@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from "./useQuery";
+import { useQuery } from "../src/useQuery";
 import { waitFor, render } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";

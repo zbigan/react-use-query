@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { useIsComponentMounted } from "../UseIsComponentMounted/useIsComponentMounted";
+import { useIsComponentMounted } from "./useIsComponentMounted";
 
 export interface UseActionConfig<R> {
   onError?: (e: unknown) => any;

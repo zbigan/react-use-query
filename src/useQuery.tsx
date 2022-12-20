@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
-import { useAction, UseActionConfig } from "../UseAction/useAction";
-import { useIsComponentMounted } from "../UseIsComponentMounted/useIsComponentMounted";
+import { useAction, UseActionConfig } from "./useAction";
+import { useIsComponentMounted } from "./useIsComponentMounted";
 
 export interface UseQueryConfig<U extends (...args: any) => any>
   extends UseActionConfig<Awaited<ReturnType<U>>> {
