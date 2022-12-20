@@ -103,7 +103,7 @@ describe("testing 'useAction' hook", () => {
 
   it("should call 'onSuccess' callback if provided", async () => {
     const onSuccessFake = jest.fn(
-      () => {}
+      () => {console.log('fake callback')}
     );
 
     const { result } = renderHook(() =>
